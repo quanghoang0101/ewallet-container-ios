@@ -127,7 +127,7 @@
 		</data>
 		<key>MiniApp.jsbundle</key>
 		<data>
-		1I50xcYo3Jk5MUhnAfTN4RNG9BA=
+		wQO3ytJwLOvwmo+vI9mjIY8Ou/c=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -147,7 +147,7 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fM0Llrf9I0HD0YeAyvx9Dz3cG2c=
+		Z05QCawdQxaml7uC1JfLi8ss4j4=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -167,7 +167,7 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AcI0u36YZsk7e7Zyw8DujpeTtP8=
+		2M88fdXrDPciVo0kV5hjFkAohqQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -176,6 +176,30 @@
 		<key>assets/README.md</key>
 		<data>
 		XdqLAfT+cHb3wnrIxirbSfFLWVQ=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
+		<data>
+		/9xO1HOyvigG6Z0PaA0dLp/gDlY=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
+		<data>
+		keLOi1inJdXs0IRSKnXqyhW57Aw=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
+		<data>
+		rSvG8m4uPMSItIcsIF+N2tDJD8U=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
+		<data>
+		8kFG8Vv7Hfrw4yVcFrhUhbHieBA=
+		</data>
+		<key>assets/node_modules/auth-miniapp/assets/intro.png</key>
+		<data>
+		IElR/TMfVQdyeKBIHVU+e+xz5zY=
+		</data>
+		<key>assets/node_modules/auth-miniapp/assets/success.png</key>
+		<data>
+		hEwxbUbEI1UZjFNt3w+RDpVA/Rc=
 		</data>
 		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
 		<data>
@@ -386,7 +410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yua/FTRgBJWPza0AkKQJs+VYbtz86s+CbKHM7F07z6U=
+			O2Y6cxLT/m1H3kjOD7tUpYetq6UBSqS+k8LQJi7uQzw=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -421,7 +445,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FeJFSiqtTOh3RggbFi6tUV8ecGEp7Uessfaz5OaIE74=
+			LGh7AP2AtYwrU/JNHy2EYI6iaJ8SLmO2q/XvI047XtA=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -456,7 +480,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			92gCT/pNuoHP+MistpQfm+bKJCjBQmA8FKIJC+TFwhU=
+			s7FImNROsCMTMprN60YDY/qQ2J61AA7WWr8v3RkwIvg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -471,6 +495,48 @@
 			<key>hash2</key>
 			<data>
 			6Ncqh0D3/+YFGwzKAPXEwnwAuQ6plc4bQl6wcaLiTOk=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LJXowmdeeZM1/QBGuwfb2gbLfs/1HtN5IsYwnWGcxNM=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LN/rjlzN55dvcBL7jM5zryIpAp7iHU8VCf7RFIccbNg=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K3RDqaWOksoRpXW9wRWYYVpX3eMFzYznDWAmBrMCzZg=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pd0Hc+0n4j0leJ8wFzGzrEVa2L5aonoKG4OPicbSciU=
+			</data>
+		</dict>
+		<key>assets/node_modules/auth-miniapp/assets/intro.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Iur57dN/CUeeHZjpxM6L0NFeTrEOOxJkFTtiI4N5jw8=
+			</data>
+		</dict>
+		<key>assets/node_modules/auth-miniapp/assets/success.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A0cqra1clZHouJzJi3lHfjHXZf6EBsY1uh38LwfnPLo=
 			</data>
 		</dict>
 		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
