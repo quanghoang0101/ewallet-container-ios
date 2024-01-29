@@ -227,6 +227,58 @@ public typealias BackToRoute = (_ componentName: Swift.String, _ properties: [Sw
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @objcMembers public class AuthUserAPI : ObjectiveC.NSObject {
+  @objc public var events: ElectrodeContainer.AuthUserAPIEvents {
+    @objc get
+    @objc set
+  }
+  @objc public var requests: ElectrodeContainer.AuthUserAPIRequests {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class AuthUserAPIEvents : ObjectiveC.NSObject {
+  @objc public func addAuthUserEventEventListener(eventListener _: @escaping ElectrodeContainer.ElectrodeBridgeEventListener) -> Foundation.UUID?
+  @objc public func removeAuthUserEventEventListener(uuid _: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeEventListener?
+  @objc public func emitEventAuthUserEvent(eventData _: ElectrodeContainer.AuthUserEventData)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class AuthUserAPIRequests : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class AuthUserEventData : ElectrodeContainer.ElectrodeObject, ElectrodeContainer.Bridgeable {
+  @objc final public let token: Swift.String
+  @objc final public let userInfo: ElectrodeContainer.UserInfoData
+  @objc public init(token: Swift.String, userInfo: ElectrodeContainer.UserInfoData)
+  @objc override dynamic public init()
+  @objc required public init(dictionary: [Swift.AnyHashable : Any])
+  @objc public func toDictionary() -> Foundation.NSDictionary
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class AuthUserEvents : ElectrodeContainer.AuthUserAPIEvents {
+  @objc override public func addAuthUserEventEventListener(eventListener: @escaping ElectrodeContainer.ElectrodeBridgeEventListener) -> Foundation.UUID?
+  @objc override public func removeAuthUserEventEventListener(uuid: Foundation.UUID) -> ElectrodeContainer.ElectrodeBridgeEventListener?
+  @objc override public func emitEventAuthUserEvent(eventData: ElectrodeContainer.AuthUserEventData)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class AuthUserRequests : ElectrodeContainer.AuthUserAPIRequests {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class UserInfoData : ElectrodeContainer.ElectrodeObject, ElectrodeContainer.Bridgeable {
+  @objc final public let username: Swift.String
+  @objc final public let phone: Swift.String
+  @objc public init(username: Swift.String, phone: Swift.String)
+  @objc override dynamic public init()
+  @objc required public init(dictionary: [Swift.AnyHashable : Any])
+  @objc public func toDictionary() -> Foundation.NSDictionary
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers open class ElectrodeObject : ObjectiveC.NSObject {
   required public init(dictionary _: [Swift.AnyHashable : Any])
   @objc override dynamic public init()

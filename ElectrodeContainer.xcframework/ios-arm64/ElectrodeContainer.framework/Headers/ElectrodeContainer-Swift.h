@@ -349,11 +349,73 @@ SWIFT_CLASS("_TtC18ElectrodeContainer31AuthMiniappNavigationController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class AuthUserAPIEvents;
+@class AuthUserAPIRequests;
+
+SWIFT_CLASS("_TtC18ElectrodeContainer11AuthUserAPI")
+@interface AuthUserAPI : NSObject
+@property (nonatomic, strong) AuthUserAPIEvents * _Nonnull events;
+@property (nonatomic, strong) AuthUserAPIRequests * _Nonnull requests;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSUUID;
+@class AuthUserEventData;
+
+SWIFT_CLASS("_TtC18ElectrodeContainer17AuthUserAPIEvents")
+@interface AuthUserAPIEvents : NSObject
+- (NSUUID * _Nullable)addAuthUserEventEventListenerWithEventListener:(ElectrodeBridgeEventListener _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
+- (ElectrodeBridgeEventListener _Nullable)removeAuthUserEventEventListenerWithUuid:(NSUUID * _Nonnull)_ SWIFT_WARN_UNUSED_RESULT;
+- (void)emitEventAuthUserEventWithEventData:(AuthUserEventData * _Nonnull)_;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer19AuthUserAPIRequests")
+@interface AuthUserAPIRequests : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_PROTOCOL("_TtP18ElectrodeContainer10Bridgeable_")
 @protocol Bridgeable
 - (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer15ElectrodeObject")
+@interface ElectrodeObject : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UserInfoData;
+
+SWIFT_CLASS("_TtC18ElectrodeContainer17AuthUserEventData")
+@interface AuthUserEventData : ElectrodeObject <Bridgeable>
+/// Token to detect user is authorized
+@property (nonatomic, readonly, copy) NSString * _Nonnull token;
+@property (nonatomic, readonly, strong) UserInfoData * _Nonnull userInfo;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token userInfo:(UserInfoData * _Nonnull)userInfo OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithDictionary:(NSDictionary * _Nonnull)dictionary OBJC_DESIGNATED_INITIALIZER;
+- (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer14AuthUserEvents")
+@interface AuthUserEvents : AuthUserAPIEvents
+- (NSUUID * _Nullable)addAuthUserEventEventListenerWithEventListener:(ElectrodeBridgeEventListener _Nonnull)eventListener SWIFT_WARN_UNUSED_RESULT;
+- (ElectrodeBridgeEventListener _Nullable)removeAuthUserEventEventListenerWithUuid:(NSUUID * _Nonnull)uuid SWIFT_WARN_UNUSED_RESULT;
+- (void)emitEventAuthUserEventWithEventData:(AuthUserEventData * _Nonnull)eventData;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer16AuthUserRequests")
+@interface AuthUserRequests : AuthUserAPIRequests
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 
@@ -374,11 +436,6 @@ SWIFT_CLASS("_TtC18ElectrodeContainer20ENNavigationDelegate")
 @end
 
 
-SWIFT_CLASS("_TtC18ElectrodeContainer15ElectrodeObject")
-@interface ElectrodeObject : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class EnNavigationAPIEvents;
 @class EnNavigationAPIRequests;
 
@@ -389,7 +446,6 @@ SWIFT_CLASS("_TtC18ElectrodeContainer15EnNavigationAPI")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSUUID;
 @class NavEventData;
 
 SWIFT_CLASS("_TtC18ElectrodeContainer21EnNavigationAPIEvents")
@@ -715,6 +771,19 @@ SWIFT_CLASS("_TtC18ElectrodeContainer34ProfileMiniappNavigationController")
 
 
 
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer12UserInfoData")
+@interface UserInfoData : ElectrodeObject <Bridgeable>
+/// Name of User
+@property (nonatomic, readonly, copy) NSString * _Nonnull username;
+/// Number phone of user
+@property (nonatomic, readonly, copy) NSString * _Nonnull phone;
+- (nonnull instancetype)initWithUsername:(NSString * _Nonnull)username phone:(NSString * _Nonnull)phone OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithDictionary:(NSDictionary * _Nonnull)dictionary OBJC_DESIGNATED_INITIALIZER;
+- (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
+@end
 
 
 SWIFT_CLASS("_TtC18ElectrodeContainer34VoucherMiniappNavigationController")

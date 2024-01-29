@@ -17,6 +17,22 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/AuthUserAPI.swift</key>
+		<data>
+		zV5nh4dy9Eci9SKUpy1uG9TtBN8=
+		</data>
+		<key>Headers/AuthUserEventData.swift</key>
+		<data>
+		rAA6d2Q+8CdZ5Naa1UHAJY94cZ4=
+		</data>
+		<key>Headers/AuthUserEvents.swift</key>
+		<data>
+		TcE+qAFQvLV72P3RBJjJc1ooa1w=
+		</data>
+		<key>Headers/AuthUserRequests.swift</key>
+		<data>
+		wz9scqrYdS/rGtfxMRS2eh7xuYE=
+		</data>
 		<key>Headers/ENCoreDelegate.swift</key>
 		<data>
 		o1/hzJYzoR/a+w/QgvrW21mKunE=
@@ -51,7 +67,7 @@
 		</data>
 		<key>Headers/ElectrodeContainer-Swift.h</key>
 		<data>
-		rLMSgkZg5OrZ/M88CTJXiKQWXAw=
+		WM/DZafLE/2iCpUo2mSx/kFr4og=
 		</data>
 		<key>Headers/ElectrodeContainer.h</key>
 		<data>
@@ -121,53 +137,57 @@
 		<data>
 		UbwbTtvfWadmuXZbnwmi1Wkhfg8=
 		</data>
+		<key>Headers/UserInfoData.swift</key>
+		<data>
+		Acw/ED7ofgxyKPMxKPqcUPW6GTs=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		YVHMLikjFsOrmJwhFG305KQeQ0I=
 		</data>
 		<key>MiniApp.jsbundle</key>
 		<data>
-		dJrty6J+HHrPbKc7jMuZTtWYNO0=
+		7ssCbn7yUz1T9Er77b7ASCalmNc=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oodywlbU1JTTLJON6PqcnOACx9Y=
+		lHpoJvwoWrUdkPRFutMLYLSC+Xs=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iJKR5ddnwYK5KisgNEhsXo7dBDs=
+		NtMNKXEI4m7yTcXNt6XEjQ8auAo=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		D3ICyxnX75w4vh1tVQ+LX20vZe0=
+		sLLtuD/7XS3SV23+JSJhXiY2l+E=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iJKR5ddnwYK5KisgNEhsXo7dBDs=
+		NtMNKXEI4m7yTcXNt6XEjQ8auAo=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Z05QCawdQxaml7uC1JfLi8ss4j4=
+		tgxvUtN7Tm+YnYnjYBHwuvMP2TU=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oodywlbU1JTTLJON6PqcnOACx9Y=
+		lHpoJvwoWrUdkPRFutMLYLSC+Xs=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qafxwJ7bDVezp9r9vSNRMziIzjM=
+		2fSzHL1S4XHk0s9sSbfUtT3U/Pg=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DEVBgAyW7SH9nsR1z2ImxA2UWfk=
+		eYKaQF1ZXPu6nChSXClavhEf6Ls=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qafxwJ7bDVezp9r9vSNRMziIzjM=
+		2fSzHL1S4XHk0s9sSbfUtT3U/Pg=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2M88fdXrDPciVo0kV5hjFkAohqQ=
+		Rfk/3rrWF/kIqpshd81cRPFlcn0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -223,6 +243,34 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Headers/AuthUserAPI.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			udm82hfU6T6x5jbbff6TosfjL4ZUJjdZfCakYS0YrEs=
+			</data>
+		</dict>
+		<key>Headers/AuthUserEventData.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ISW9F9mST9HXmiMiAYX75B5SKdHT+m4yPeV3RtqKaaM=
+			</data>
+		</dict>
+		<key>Headers/AuthUserEvents.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FHXVdIDIDVZ2myo/EVWuQwYCKfpNNCgl0bDJ7IxaH8k=
+			</data>
+		</dict>
+		<key>Headers/AuthUserRequests.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hD83RXhMa6z8mRFYtGUUQKb6AtnmPXFH3n7bNDkiDYw=
+			</data>
 		</dict>
 		<key>Headers/ENCoreDelegate.swift</key>
 		<dict>
@@ -284,7 +332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lkzx9CkE4gxjJcAIu2cOECK0bgIQe2eV8ZD9x9NnHkk=
+			nQYLqvlKicryd0ahXAmcTdIN7h/CWCOi/Qry64+PmTc=
 			</data>
 		</dict>
 		<key>Headers/ElectrodeContainer.h</key>
@@ -406,81 +454,88 @@
 			lhDZaqx2JveT4qS8lTSQGO4e2lIAofcotTaZ26Ufp6A=
 			</data>
 		</dict>
+		<key>Headers/UserInfoData.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ah8n2kV+vSNSsayJVUvZ0ydI1fd5MBtUKA56csRLR6U=
+			</data>
+		</dict>
 		<key>MiniApp.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qGmHvuIwoawwQn3RhcKraHdChSp48y7Y+dxgg+qFrZQ=
+			g3sp+6GqYmg3vEQtaJlvfRLGBAHp2nAUGNU3kkuapbc=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M+QdwtXMPdsP7zCnP196QjLysRWQeAA56BPvHehpfhk=
+			G5rHb+2PY8O/6cQs7nEa34SteMiSJJcUwC8UTJ2I0JA=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BYE3zVHNcwyztEq4sW+Gq6UGtgTJXoPZGe6ABjzXZD8=
+			jLZSG6zOoAwqdql9RFeHrZ1u7T5ejg2d3rSerPBorQE=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			li4ZpRgywXEzkpDwzkfzKuf6G0B2XZ97rkF4r1hVEN4=
+			BvTTT/6ke5K1urBMcapkoOz0mHWVsC8ACwX+m4j8++I=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BYE3zVHNcwyztEq4sW+Gq6UGtgTJXoPZGe6ABjzXZD8=
+			jLZSG6zOoAwqdql9RFeHrZ1u7T5ejg2d3rSerPBorQE=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGh7AP2AtYwrU/JNHy2EYI6iaJ8SLmO2q/XvI047XtA=
+			dBLbQbTgt78gWNelKGGkC0pQXBQu2b/97Ip4OBXBejA=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M+QdwtXMPdsP7zCnP196QjLysRWQeAA56BPvHehpfhk=
+			G5rHb+2PY8O/6cQs7nEa34SteMiSJJcUwC8UTJ2I0JA=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			workhU4iaE1I1/01hgzaBKQ3IkArwtJXZtQPLVHYMrE=
+			QNBtUBI+pjvddsTnImy9e9ezM3TwoR4KWyG/1V8Q8bo=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			stNm9Q0wv9bf42ISEmYhcaDkcCF5PBA1nJ2hklMWfyA=
+			WaIbAAT5QFp2yXtSz/OS+NEUzroatOoJGJVxvVELkOc=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			workhU4iaE1I1/01hgzaBKQ3IkArwtJXZtQPLVHYMrE=
+			QNBtUBI+pjvddsTnImy9e9ezM3TwoR4KWyG/1V8Q8bo=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7FImNROsCMTMprN60YDY/qQ2J61AA7WWr8v3RkwIvg=
+			9JBPT7378BZs9zM1VRqQIHr5pMftImaeNL549bfMsTQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
