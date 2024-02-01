@@ -757,6 +757,13 @@ SWIFT_CLASS("_TtC18ElectrodeContainer4None")
 @end
 
 
+SWIFT_CLASS("_TtC18ElectrodeContainer39NotificationMiniappNavigationController")
+@interface NotificationMiniappNavigationController : ENBaseNavigationController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_PROTOCOL("_TtP18ElectrodeContainer9Processor_")
 @protocol Processor
 - (NSUUID * _Nullable)execute SWIFT_WARN_UNUSED_RESULT;
@@ -1556,6 +1563,13 @@ SWIFT_CLASS("_TtC18ElectrodeContainer4None")
 - (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer39NotificationMiniappNavigationController")
+@interface NotificationMiniappNavigationController : ENBaseNavigationController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

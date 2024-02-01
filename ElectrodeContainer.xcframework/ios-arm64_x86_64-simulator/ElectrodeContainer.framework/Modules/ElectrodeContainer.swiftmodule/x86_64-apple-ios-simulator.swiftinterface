@@ -398,6 +398,12 @@ open class MiniAppsConfig {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class NotificationMiniappNavigationController : ElectrodeContainer.ENBaseNavigationController {
+  @_Concurrency.MainActor(unsafe) override open func getRootComponentName() -> Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class ProfileMiniappNavigationController : ElectrodeContainer.ENBaseNavigationController {
   @_Concurrency.MainActor(unsafe) override open func getRootComponentName() -> Swift.String
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()

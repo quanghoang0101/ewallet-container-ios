@@ -17946,6 +17946,205 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NotificationMiniappNavigationController",
+        "printedName": "NotificationMiniappNavigationController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRootComponentName",
+            "printedName": "getRootComponentName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ElectrodeContainer39NotificationMiniappNavigationControllerC20getRootComponentNameSSyF",
+            "mangledName": "$s18ElectrodeContainer39NotificationMiniappNavigationControllerC20getRootComponentNameSSyF",
+            "moduleName": "ElectrodeContainer",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationMiniappNavigationController",
+                "printedName": "ElectrodeContainer.NotificationMiniappNavigationController",
+                "usr": "c:@M@ElectrodeContainer@objc(cs)NotificationMiniappNavigationController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ElectrodeContainer@objc(cs)NotificationMiniappNavigationController(im)init",
+            "mangledName": "$s18ElectrodeContainer39NotificationMiniappNavigationControllerCACycfc",
+            "moduleName": "ElectrodeContainer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ElectrodeContainer.NotificationMiniappNavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationMiniappNavigationController",
+                    "printedName": "ElectrodeContainer.NotificationMiniappNavigationController",
+                    "usr": "c:@M@ElectrodeContainer@objc(cs)NotificationMiniappNavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ElectrodeContainer@objc(cs)NotificationMiniappNavigationController(im)initWithCoder:",
+            "mangledName": "$s18ElectrodeContainer39NotificationMiniappNavigationControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "ElectrodeContainer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ElectrodeContainer@objc(cs)NotificationMiniappNavigationController",
+        "mangledName": "$s18ElectrodeContainer39NotificationMiniappNavigationControllerC",
+        "moduleName": "ElectrodeContainer",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@ElectrodeContainer@objc(cs)ENBaseNavigationController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ElectrodeContainer.ENBaseNavigationController",
+          "UIKit.UINavigationController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ENMiniAppNavDataProvider",
+            "printedName": "ENMiniAppNavDataProvider",
+            "usr": "c:@M@ElectrodeContainer@objc(pl)ENMiniAppNavDataProvider",
+            "mangledName": "$s18ElectrodeContainer24ENMiniAppNavDataProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ENMiniAppDataProvider",
+            "printedName": "ENMiniAppDataProvider",
+            "usr": "c:@M@ElectrodeContainer@objc(pl)ENMiniAppDataProvider",
+            "mangledName": "$s18ElectrodeContainer21ENMiniAppDataProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ProfileMiniappNavigationController",
         "printedName": "ProfileMiniappNavigationController",
         "children": [
@@ -18685,8 +18884,8 @@
       "filePath": "\/Users\/hoangphan\/.ern\/containergen\/out\/ios\/ElectrodeContainer\/MiniAppNavigationControllers\/MiniAppsConfig.swift",
       "kind": "Array",
       "offset": 714,
-      "length": 137,
-      "value": "[\"AuthMiniapp\", \"MainMiniapp\", \"ProfileMiniapp\", \"VoucherMiniapp\"]"
+      "length": 176,
+      "value": "[\"AuthMiniapp\", \"MainMiniapp\", \"NotificationMiniapp\", \"ProfileMiniapp\", \"VoucherMiniapp\"]"
     }
   ]
 }

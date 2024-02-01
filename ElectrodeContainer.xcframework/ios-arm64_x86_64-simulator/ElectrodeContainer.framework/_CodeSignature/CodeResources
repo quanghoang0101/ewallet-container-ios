@@ -67,7 +67,7 @@
 		</data>
 		<key>Headers/ElectrodeContainer-Swift.h</key>
 		<data>
-		WM/DZafLE/2iCpUo2mSx/kFr4og=
+		sPGxnSG/8t83BC0Xf6eFH9obWBI=
 		</data>
 		<key>Headers/ElectrodeContainer.h</key>
 		<data>
@@ -147,15 +147,15 @@
 		</data>
 		<key>MiniApp.jsbundle</key>
 		<data>
-		7ssCbn7yUz1T9Er77b7ASCalmNc=
+		QyKoFW/EM+DOHBWYOBMHkNLhD4Q=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lHpoJvwoWrUdkPRFutMLYLSC+Xs=
+		bQc/jJeXSXGQE0ArRUDoPmOSelw=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NtMNKXEI4m7yTcXNt6XEjQ8auAo=
+		U1UGCQYqOyWR2gds46tDGl8OSvY=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -163,19 +163,19 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NtMNKXEI4m7yTcXNt6XEjQ8auAo=
+		U1UGCQYqOyWR2gds46tDGl8OSvY=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tgxvUtN7Tm+YnYnjYBHwuvMP2TU=
+		PKXNukHPbKigSOp67LJektUJw3w=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lHpoJvwoWrUdkPRFutMLYLSC+Xs=
+		bQc/jJeXSXGQE0ArRUDoPmOSelw=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2fSzHL1S4XHk0s9sSbfUtT3U/Pg=
+		BMV5iFkW09iJXV6QFC8xBUMgkH4=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -183,11 +183,11 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2fSzHL1S4XHk0s9sSbfUtT3U/Pg=
+		BMV5iFkW09iJXV6QFC8xBUMgkH4=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Rfk/3rrWF/kIqpshd81cRPFlcn0=
+		Jtnm1j2Sw2YYNir/uOEpR1gVI94=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -220,6 +220,30 @@
 		<key>assets/node_modules/auth-miniapp/assets/success.png</key>
 		<data>
 		hEwxbUbEI1UZjFNt3w+RDpVA/Rc=
+		</data>
+		<key>assets/node_modules/notification-miniapp/assets/ic-electric.png</key>
+		<data>
+		DiXsXSMaQ2lUdkhYsEwFfkOwO7k=
+		</data>
+		<key>assets/node_modules/notification-miniapp/assets/ic-qr.png</key>
+		<data>
+		1YnxSg+kbxWM/EnLL5qMof8jptM=
+		</data>
+		<key>assets/node_modules/notification-miniapp/assets/ic-scan.png</key>
+		<data>
+		UdNkhKp4+lG/Yt6n9lgg5Fm3hAs=
+		</data>
+		<key>assets/node_modules/notification-miniapp/assets/ic-shopping.png</key>
+		<data>
+		8QBPAGyaTBZnjKtID/j7A0GvKN8=
+		</data>
+		<key>assets/node_modules/notification-miniapp/assets/ic-television.png</key>
+		<data>
+		rF7aTuJFESw+dLn4mXxEWgUgYyU=
+		</data>
+		<key>assets/node_modules/notification-miniapp/assets/ic-water.png</key>
+		<data>
+		28CPLHntbG7WjmWbIGPnUVelCLM=
 		</data>
 		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
 		<data>
@@ -332,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nQYLqvlKicryd0ahXAmcTdIN7h/CWCOi/Qry64+PmTc=
+			WKIJ9bTKFweNlxTKG4FwsnzoeF463q8P/gAlrvco7pg=
 			</data>
 		</dict>
 		<key>Headers/ElectrodeContainer.h</key>
@@ -465,21 +489,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3sp+6GqYmg3vEQtaJlvfRLGBAHp2nAUGNU3kkuapbc=
+			rJE2TVvtjH2RxyOejzXB+z/jotS/GZffIdqGe7LsXP4=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5rHb+2PY8O/6cQs7nEa34SteMiSJJcUwC8UTJ2I0JA=
+			lHAqnu0SLRJf+KtU2ptB3et7CMDFkzTiX1TMCi4PNvc=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLZSG6zOoAwqdql9RFeHrZ1u7T5ejg2d3rSerPBorQE=
+			DDLXGt4LK6rLzr0GdAQ/okPtZiULcfaNc/HIRf20S1A=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -493,28 +517,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLZSG6zOoAwqdql9RFeHrZ1u7T5ejg2d3rSerPBorQE=
+			DDLXGt4LK6rLzr0GdAQ/okPtZiULcfaNc/HIRf20S1A=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dBLbQbTgt78gWNelKGGkC0pQXBQu2b/97Ip4OBXBejA=
+			QWiJGdwGjmC4c7EI5/CyNrwHVNAvDXO/7OM4iRLcqDk=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5rHb+2PY8O/6cQs7nEa34SteMiSJJcUwC8UTJ2I0JA=
+			lHAqnu0SLRJf+KtU2ptB3et7CMDFkzTiX1TMCi4PNvc=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QNBtUBI+pjvddsTnImy9e9ezM3TwoR4KWyG/1V8Q8bo=
+			IYbkgXDtYUhs1hSAAyUB9zTwK4wkSkiwJHYWsVeTHdY=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -528,14 +552,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QNBtUBI+pjvddsTnImy9e9ezM3TwoR4KWyG/1V8Q8bo=
+			IYbkgXDtYUhs1hSAAyUB9zTwK4wkSkiwJHYWsVeTHdY=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9JBPT7378BZs9zM1VRqQIHr5pMftImaeNL549bfMsTQ=
+			fBNs37PJHNTKvyrtwxqa5a4RatnJ4yxu2ukX/JKXb5o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -592,6 +616,48 @@
 			<key>hash2</key>
 			<data>
 			A0cqra1clZHouJzJi3lHfjHXZf6EBsY1uh38LwfnPLo=
+			</data>
+		</dict>
+		<key>assets/node_modules/notification-miniapp/assets/ic-electric.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JXGtPHG/9b31RVgXz8/3kt3TuEUSmqYllJ4QKqJ30Ps=
+			</data>
+		</dict>
+		<key>assets/node_modules/notification-miniapp/assets/ic-qr.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eT8ZrTC9ScyGF72/DzA0SA++RzvCTl5ma7ged0AlZXY=
+			</data>
+		</dict>
+		<key>assets/node_modules/notification-miniapp/assets/ic-scan.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yPP8UPyaUVudbPImH0S40SnwRHxBFvZw6tEUtsffMwk=
+			</data>
+		</dict>
+		<key>assets/node_modules/notification-miniapp/assets/ic-shopping.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RvPa3rHdsthLTC/BnZgXbbz9PyqrzUbeEct5v0BeD2A=
+			</data>
+		</dict>
+		<key>assets/node_modules/notification-miniapp/assets/ic-television.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HNEDxPCVSjeKSqwRocSzucx1VqUJ+xGVLLyhPVKqCWE=
+			</data>
+		</dict>
+		<key>assets/node_modules/notification-miniapp/assets/ic-water.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wYHzBElFlzb3jul07z6asHYGsWvpsDrGIrEy5O3T7Xs=
 			</data>
 		</dict>
 		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
